@@ -151,8 +151,7 @@ with col2:
 
 #### DATA and PREDICTIONS
 
-s = pd.read_csv(
-    "C:\\Users\\aarik\\Desktop\\Prog II\\social_media_usage.csv")
+s = pd.read_csv(r"social_media_usage.csv")
 
 def clean_sm(x):
     return(np.where(x == 1,
